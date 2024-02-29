@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RecipesApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LittleTextViewStyle">
+        <item name="android:textColor">#B6B5B5</item>
+    </style>
+
+    <style name="CardViewStyle">
+        <item name="android:background"> @drawable/card_back_dark_btn</item>
+    </style>
+
+    <style name="BackBtnViewStyle">
+        <item name="android:tint">@color/white</item>
+        <item name="android:src"> @drawable/back_icon</item>
+        <item name="android:background"> @drawable/card_back_dark_btn</item>
+    </style>
+
+    <style name="FullSizeViewStyle">
+        <item name="android:tint"> @color/white</item>
+        <item name="android:background"> @drawable/card_back_dark_btn</item>
+    </style>
+
+    <style name="RecipeCardViewStyle">
+        <item name="android:background"> @drawable/card_dark_recipe</item>
+    </style>
+
+    <style name="UpBtnViewStyle">
+        <item name="android:tint">@color/white</item>
+        <item name="android:src"> @drawable/scroll_up</item>
+    </style>
+    <style name="CategoryCardViewStyle">
+        <item name="android:background"> @drawable/card_shape_dark</item>
+    </style>
+    <style name="BottomSheetViewStyle">
+        <item name="android:background"> @drawable/bottom_sheet_bg_dark</item>
+    </style>
+    <style name="IconThemeViewStyle">
+        <item name="android:tint">@color/white</item>
+    </style>
+</resources>
