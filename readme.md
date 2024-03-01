@@ -62,7 +62,6 @@ plugins {
     border: none;
   }
 </style>
-<br/>
 <table>
   <tr>
     <td align="center"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/homePage.jpg" alt="home page" ></td>
