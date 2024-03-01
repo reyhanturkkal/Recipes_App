@@ -52,16 +52,18 @@ plugins {
 
 ## Images of the Application
 ### Light Mode / Dark Mode
-<style>
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  td {
-    padding: 8px;
-    border: none;
-  }
-</style>
+<div style="display: none;">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td {
+      padding: 8px;
+      border: none;
+    }
+  </style>
+</div>
 <table>
   <tr>
     <td align="center"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/homePage.jpg" alt="home page" ></td>
