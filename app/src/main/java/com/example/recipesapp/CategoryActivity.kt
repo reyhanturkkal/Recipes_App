@@ -18,6 +18,11 @@ class CategoryActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         title=intent.getStringExtra("TITTLE")
+
+        val categoryTitle = intent.getStringExtra("TITTLE")
+        binding.tittle.text = categoryTitle
+
+
         setUpRecylerView()
         binding.goBackHome.setOnClickListener {
             finish()
@@ -25,8 +30,7 @@ class CategoryActivity : AppCompatActivity() {
     }
     private fun setUpRecylerView() {
         dataList= ArrayList()
-        binding.rvCategory.layoutManager=
-            LinearLayoutManager(this)
+        binding.rvCategory.layoutManager=LinearLayoutManager(this)
         var db= Room.databaseBuilder(this@CategoryActivity,AppDatabase::class.java, "db_name")
             .allowMainThreadQueries()
             .fallbackToDestructiveMigration()
