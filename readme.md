@@ -51,9 +51,7 @@ plugins {
 ```
 
 ## Images of the Application
-
 ### Light Mode / Dark Mode
-
 <style>
   table {
     border-collapse: collapse;
