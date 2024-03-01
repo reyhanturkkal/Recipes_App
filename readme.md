@@ -52,27 +52,19 @@ plugins {
 
 ## Images of the Application
 ### Light Mode / Dark Mode
-<table>
+<table style="border-collapse: collapse; width: 100%;">
   <tr>
-    <td align="center"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/homePage.jpg" alt="home page" ></td>
-    <td align="center"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/searchPage.jpg" alt="search page" ></td>
-    <td align="center"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/searchForPage.jpg" alt="search for page" ></td>
-    <td align="center"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/categoryPage.jpg" alt="category page" ></td>
+    <td align="center" style="padding: 8px; border: none;"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/homePage.jpg" alt="home page"></td>
+    <td align="center" style="padding: 8px; border: none;"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/searchPage.jpg" alt="search page"></td>
+    <td align="center" style="padding: 8px; border: none;"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/searchForPage.jpg" alt="search for page"></td>
+    <td align="center" style="padding: 8px; border: none;"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/categoryPage.jpg" alt="category page"></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/Ingredients.jpg" alt="ingredients" ></td>
-    <td align="center"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/Steps.jpg" alt="steps" ></td>
-    <td align="center"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/extendRecipe.jpg" alt="extend recipe" ></td>
-    <td align="center"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/extendPhoto.jpg" alt="extend photo" ></td>
+    <td align="center" style="padding: 8px; border: none;"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/Ingredients.jpg" alt="ingredients"></td>
+    <td align="center" style="padding: 8px; border: none;"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/Steps.jpg" alt="steps"></td>
+    <td align="center" style="padding: 8px; border: none;"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/extendRecipe.jpg" alt="extend recipe"></td>
+    <td align="center" style="padding: 8px; border: none;"><img src="https://github.com/reyhanturkkal/Recipes_App/blob/master/assets/extendPhoto.jpg" alt="extend photo"></td>
   </tr>
 </table>
-  <style>
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-    td {
-      padding: 8px;
-      border: none;
-    }
-  </style>
+
+</table>
